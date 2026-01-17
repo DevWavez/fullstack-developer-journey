@@ -1,0 +1,46 @@
+/* Base styles = MOBILE */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.site-header,
+.site-footer {
+  background-color: #020617;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* MOBILE DEFAULT*/
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background-color: #e5e7eb;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* TABLE & up */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    background: #e7e5;
+  }
+}
+
+/* Desktop & up */
+@media (min-width: 1024px) {
+  .card {
+    font-size: 1.25rem;
+  }
+}
