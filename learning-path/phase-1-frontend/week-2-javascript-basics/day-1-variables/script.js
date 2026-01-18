@@ -41,3 +41,14 @@ let message = `Hello, ${firstName}! You are ${age} years old.`;
 
 console.log(greeting);
 console.log(message);
+
+// Mini-challenge
+
+// Create variables
+const color = 'red';
+const number = 7;
+const study = true;
+
+const TemplateMessage = `The color is ${color}, the number is ${number}, and studying is ${study}.`;
+// Print variables
+console.log(TemplateMessage);
