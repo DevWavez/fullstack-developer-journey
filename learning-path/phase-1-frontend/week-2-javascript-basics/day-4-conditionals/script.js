@@ -8,7 +8,7 @@ if (age >= 18) {
 
 // Task 2: Boolean condition
 const isLoggedIn = true;
-if (isLoogedIn) {
+if (isLoggedIn) {
   console.log('Welcome back!');
 } else {
   console.log('Please log in.');
