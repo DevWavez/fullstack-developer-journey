@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Logs
+*.log
+
+# Optional: System Files
+Thumbs.db
