@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>MusterFirma – Vermietung & Verkauf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Anhängervermietung und -verkauf in Ihrer Region. PKW-Anhänger, Kipper, Transportlösungen für Handwerk und Privat."
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="container nav" aria-label="Hauptnavigation">
+        <a class="logo" href="/" aria-label="Startseite"> 
+          <strong>
+          MusterFirma</a>
+        </strong> 
+        <ul>
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#unternehmen">Über uns</a></li>
+          <li><a href="downloads.html">Downloads</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Ihr Partner für Anhänger in der Region</h1>
+          <p>
+            Vermietung und Verkauf von PKW-Anhängern, Kippern und
+            Transportlösungen.
+          </p>
+          <a href="#kontakt" class="btn">Jetzt anfragen</a>
+        </div>
+      </section>
+
+      <section id="leistungen" class="container section">
+        <h2>Leistungen</h2>
+        <div class="grid">
+          <article>
+            <h3>Vermietung</h3>
+            <p>Flexible PKW-Anhänger für Kurz- und Langzeitmiete.</p>
+          </article>
+          <article>
+            <h3>Verkauf</h3>
+            <p>Neue und gebrauchte Anhänger namhafter Hersteller.</p>
+          </article>
+          <article>
+            <h3>Service</h3>
+            <p>Wartung, Reparatur und Zubehör für Ihren Anhänger.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="unternehmen" class="section-alt">
+        <div class="container">
+          <h2>Über uns</h2>
+          <p>
+            Seit über 10 Jahren bieten wir zuverlässige Anhänger-Lösungen für
+            Handwerk, Gewerbe und Privatkunden.
+          </p>
+        </div>
+      </section>
+
+      <section id="kontakt" class="container section">
+        <h2>Kontakt & Anfahrt</h2>
+        <div class="grid-2">
+          <address>
+            <strong>MusterFirma</strong><br />
+            Musterstraße 1<br />
+            12345 Musterstadt<br /><br />
+            <a href="tel:+49...">+49 123 456789</a><br />
+            <a href="mailto:muster.mann@musterfirma"
+              >muster.mann@musterfirma.de</a
+            ><br /><br />
+            <strong>Öffnungszeiten:</strong><br />
+            Mo–Fr: 08:00–17:00<br />
+            Sa: nach Vereinbarung
+          </address>
+          <div class="map-placeholder">Google Maps Platzhalter</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <small>© <span id="year"></span> MusterFirma</small>
+        <nav><a href="#">Impressum</a> · <a href="#">Datenschutz</a></nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
