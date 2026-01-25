@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Company Name – Modern Locksmith</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Professional locksmith services in the region. Emergency openings, lock replacement, and security consultation for private and business customers."
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="container nav" aria-label="Main navigation">
+        <a class="logo" href="/">Company Name</a>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Your Trusted Local Locksmith</h1>
+          <p>Fast, professional help for private and business customers.</p>
+          <button
+            onclick="
+              document
+                .getElementById('contact')
+                .scrollIntoView({ behavior: 'smooth' })
+            "
+            class="btn"
+          >
+            Contact Us Now
+          </button>
+        </div>
+      </section>
+
+      <section id="services" class="container section">
+        <h2>Our Services</h2>
+        <div class="grid">
+          <article>
+            <h3>Emergency Opening</h3>
+            <p>Fast, damage-free door openings 24/7.</p>
+          </article>
+
+          <article>
+            <h3>Lock Replacement</h3>
+            <p>Modern and secure locking systems for homes and businesses.</p>
+          </article>
+
+          <article>
+            <h3>Security Consultation</h3>
+            <p>
+              Personalized advice to improve safety in your home or business.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section-alt">
+        <div class="container">
+          <h2>About Us</h2>
+          <p>
+            We are an experienced locksmith service providing fast assistance,
+            professional advice, and the highest security standards. Our team is
+            available 24/7 to help you reliably in emergencies. Trust our
+            expertise and years of experience.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="container section">
+        <h2>Contact</h2>
+        <div class="grid-2">
+          <address>
+            <strong>Company Name</strong><br />
+            Sample Street 1<br />
+            12345 Sample City<br /><br />
+
+            <a href="tel:+491234567890">+49 123 4567890</a><br />
+            <a href="mailto:info@company.com">info@company.com</a><br /><br />
+
+            <strong>Opening Hours:</strong><br />
+            Mon–Fri: 08:00–18:00<br />
+            Sat: by appointment<br />
+            Sun: emergencies only
+          </address>
+
+          <div class="map-placeholder">Service Area Map Placeholder</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <small>© <span id="year"></span> Company Name</small>
+        <nav><a href="#">Imprint</a> · <a href="#">Privacy Policy</a></nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
