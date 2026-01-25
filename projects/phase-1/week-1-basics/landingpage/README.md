@@ -1,10 +1,8 @@
-# MusterFirma – Business Website (Phase 1)
+# SampleCompany – Business Website (Phase 1)
 
-A responsive, static business website for a fictional company offering
-trailer rental and sales services.
+A responsive, static business website for a fictional company offering trailer rental and sales services.
 
-This project was created as part of my Fullstack Developer learning journey
-and focuses on clean HTML structure, modern CSS, and basic JavaScript usage.
+This project was created as part of my Fullstack Developer learning journey and focuses on clean HTML structure, modern CSS, and basic JavaScript usage.
 
 ---
 
@@ -12,12 +10,16 @@ and focuses on clean HTML structure, modern CSS, and basic JavaScript usage.
 
 **Features:**
 
-- Semantic HTML5 structure (header, nav, main, section, article, footer)
+- Semantic HTML5 structure (`header`, `nav`, `main`, `section`, `article`, `footer`)
 - Responsive layout using CSS Grid and Flexbox
 - Modern styling with CSS custom properties (variables)
 - Mobile-first approach with responsive breakpoints
 - Dynamic copyright year using vanilla JavaScript
 - GDPR-friendly Google Maps placeholder (no external embeds)
+
+**Preview:**
+
+![Website Preview](assets/images/preview.png)
 
 ---
 
@@ -40,7 +42,7 @@ The website is fully responsive and optimized for:
 
 ---
 
-## 🎯 Project Goal
+## 🎯 Project Goals
 
 - Build a realistic business website from scratch
 - Practice clean, semantic HTML and structured CSS
@@ -51,8 +53,9 @@ The website is fully responsive and optimized for:
 ## 🚀 Possible Improvements
 
 - Add interactive JavaScript features
-- Implement a contact form (frontend only)
+- Implement a functional contact form (frontend only)
 - Enhance accessibility (ARIA roles, keyboard navigation)
+- Integrate real Google Maps embed for client projects
 
 ---
 
