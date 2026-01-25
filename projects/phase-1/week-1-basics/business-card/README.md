@@ -86,9 +86,13 @@ week-1-basics/
 
 ---
 
-## 📸 Previewc
+## 📸 Preview
 
 This project represents a clean and professional **business card layout** that can serve as a foundation for future portfolio projects or personal branding pages.
+
+**Preview:**
+
+![Website Preview](assets/images/preview.png)
 
 ---
 
