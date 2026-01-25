@@ -15,6 +15,10 @@ using localStorage.
 - Responsive design for desktop and mobile
 - Clean and structured code following best practices
 
+## Preview
+
+![Screenshot](assets/images/picture_1.png)
+
 ---
 
 ## 🛠️ Technologies Used
