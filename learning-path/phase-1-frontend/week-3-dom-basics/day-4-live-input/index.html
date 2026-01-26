@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 4 - Live Input</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      h1 {
+        margin: 25px auto;
+      }
+      #userForm {
+        margin: 25px auto;
+        padding: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Day 4 - Live Input</h1>
+
+    <form id="userForm">
+      <p id="feedback"></p>
+      <input type="text" id="username" placeholder="Input cannot be empty" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
