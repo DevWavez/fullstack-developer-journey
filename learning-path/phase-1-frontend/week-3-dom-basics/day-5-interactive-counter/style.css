@@ -1,0 +1,26 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+#counter {
+  font-size: 4rem;
+  margin: 1rem 0;
+  color: gray;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
